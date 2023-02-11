@@ -456,7 +456,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background-size: contain;
 }
 
-#_cmwc .page-header {
+#_cmw .page-header {
     position: relative;
     z-index: -1;
     height: calc(var(--100vh) - var(--Navigationheight));
@@ -464,7 +464,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background: linear-gradient(0deg, #aaa7c4, #394388);
 }
 
-#_cmwc .page-header .page-header__top {
+#_cmw .page-header .page-header__top {
     height: calc(var(--100vh) - var(--Navigationheight));
     min-height: 320px;
     width: 100%;
@@ -473,7 +473,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     left: 0;
 }
 
-#_cmwc .page-header .page-header__top .page-header__championship-banner {
+#_cmw .page-header .page-header__top .page-header__championship-banner {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -490,7 +490,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     transform: scale(1.1);
 }
 
-#_cmwc .page-header .page-header__top .page-header__championship-banner {
+#_cmw .page-header .page-header__top .page-header__championship-banner {
     background-image: var(--header_banner);
     background-position: center bottom;
     filter: blur(1vh);
@@ -1123,8 +1123,8 @@ nav[data-navigator] .nav_container a img.logo {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: var(--100vh);
+    width: var(--100vw);
     padding-top: calc(1.25vh + 22px);
     z-index: 1001;
     overflow: hidden;

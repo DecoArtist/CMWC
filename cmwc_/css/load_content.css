@@ -1,4 +1,4 @@
-body#_cmwc {
+body#_cmw {
     font-family: 'SupercellHeadline-Heavy';
     background: #2b2b2b;
     --cmwcBackground: #f3f3f3;
@@ -14,12 +14,12 @@ body#_cmwc {
 }
 
 @media (max-width: 480px){
-    body#_cmwc{
+    body#_cmw{
         --Navigationheight: 155px;
     }}
     
     @media (max-width: 380px){
-    body#_cmwc{
+    body#_cmw{
         --Navigationheight: 145px;
     }}
 
@@ -81,7 +81,7 @@ body#_cmwc {
 
 section.big-block {
     width: 100%;
-    height: 100vh;
+    height: var(--100vh);
     display: flex;
     justify-content: center;
     align-items: center;
